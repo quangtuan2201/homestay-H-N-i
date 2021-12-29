@@ -1,0 +1,48 @@
+/* mobile and tabley */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header__navbar-mobile-tablet-btn {
+        display: block;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .slider-wrapper {
+        height: 180px;
+    }
+    .favorite-places-item-img {
+        width: 210px;
+    }
+
+
+}
+/* mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .contact-logo-img {
+        padding-top: 40%;
+    }
+    .favorite-places-item-img {
+        width: 100%;
+    }
+    .app__container {
+        margin: 0 4px;
+        overflow: hidden;
+    }
+    .slider-wrapper {
+        height: 130px;
+    }
+    .prootion__desc .description {
+        flex-basis: 300px;
+    }
+}
